@@ -3,6 +3,7 @@ def main():
         ## Skriv ut menyvalen
         print("1. Cat")
         print("2. Cow")
+        print("3. Dog")
         print("Enter x to exit")
 
         choice = input("Enter your selection")
@@ -11,6 +12,8 @@ def main():
                 print("Mjau, mjau")
             case '2': #Cow-sound
                 print("Muu, muu")
+            case '3': #Dog-sound
+                print("Voff, voff")
             case 'x': #Exit
                 break
             case _:
